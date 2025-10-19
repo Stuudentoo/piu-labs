@@ -146,7 +146,7 @@ body {
 }
 
 /* Główna sekcja */
-.lab1 {
+.lab2 {
   max-width: 600px;
   margin: 80px auto;
   background: white;
@@ -162,7 +162,7 @@ h1 {
 }
 
 /* Link "Powrót" */
-.lab1 > a:first-of-type {
+.lab2 > a:first-of-type {
   display: inline-block;
   margin-bottom: 20px;
   color: #2a4d69;
@@ -170,7 +170,7 @@ h1 {
   font-weight: bold;
 }
 
-.lab1 > a:first-of-type:hover {
+.lab2 > a:first-of-type:hover {
   text-decoration: underline;
 }
 
@@ -192,8 +192,7 @@ nav a:hover {
 }
 
 /* Prosty efekt na hover całej ramki */
-.lab1:hover {
+.lab2:hover {
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
   transition: 0.3s;
 }
-  
