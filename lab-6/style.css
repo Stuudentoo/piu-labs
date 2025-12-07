@@ -1,0 +1,89 @@
+
+body, h1, ul, li, button, div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f0f2f5;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+#app {
+  width: 500px;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background: #4a90e2;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #3a7ac8;
+}
+
+button:active {
+  background: #316aa8;
+}
+
+
+#loader {
+  text-align: center;
+  font-weight: bold;
+  color: #555;
+  margin: 10px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.error {
+  color: #d93025;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+}
+
+
+#list {
+  list-style: none;
+  margin-top: 20px;
+}
+
+#list li {
+  background: #fafafa;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  border-left: 4px solid #4a90e2;
+}
