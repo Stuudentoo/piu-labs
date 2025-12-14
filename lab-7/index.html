@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script type="module" src="./components/product-card.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+
+    <div class="product-list">
+      <product-card>
+        <img
+          slot="image"
+          src="img/bluza.jpg"
+          height="250px",
+          width="280px"
+          alt="Zdjęcie T-Shirtu"
+        />
+        <h2 slot="name">Klasyczny Bawełniany T-Shirt</h2>
+        <div slot="price">99.99 PLN</div>
+        <div slot="sizes">
+          <button>S</button><button>M</button><button>L</button
+          ><button>XL</button>
+        </div>
+      </product-card>
+
+      <product-card>
+        <img
+          slot="image"
+          src="img/rękawiczki.jpg"
+          height="250px",
+          width="280px"
+          alt="Zdjęcie Jeansów"
+        />
+        <h2 slot="name">Rękawiczki - skórzane</h2>
+        <div slot="price">
+          199.00 PLN 
+        </div>
+        <div slot="colors">
+          <span
+            style="
+              background-color: rgb(78, 41, 29);
+              width: 18px;
+              height: 18px;
+              border-radius: 50%;
+              display: inline-block;
+              margin-right: 6px;
+              vertical-align: middle;
+              border: 1px solid rgba(0, 0, 0, 0.12);
+              box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+            "
+            aria-label="Brązowy"
+          ></span>
+         
+        </div>
+      </product-card>
+
+      <product-card>
+        <img
+          slot="image"
+          src="img/bluza z kapturem.jpg"
+          height="280px",
+          width="270px"
+          alt="Zdjęcie Bluzy"
+        />
+        <h2 slot="name">Bluza z Kapturem</h2>
+        <div slot="price">149.00 PLN</div>
+        <div slot="colors">
+          <span
+            style="
+              background-color: rgb(0, 0, 0);
+              width: 18px;
+              height: 18px;
+              border-radius: 50%;
+              display: inline-block;
+              margin-right: 6px;
+              vertical-align: middle;
+              border: 1px solid rgba(0, 0, 0, 0.12);
+              box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+            "
+            aria-label="Szary"
+          ></span>
+        </div>
+        <div slot="sizes">
+          <button>XS</button><button>S</button><button>M</button>
+        </div>
+      </product-card>
+
+      <product-card>
+        <img
+          slot="image"
+          src="img/czapka.jpg"
+          height="220px",
+          width="270px"
+          alt="Zdjęcie Czapki"
+        />
+        <h2 slot="name">Czapka</h2>
+        <div slot="price">49.00 PLN</div>
+        <span slot="promotion">NOWOŚĆ</span>
+      </product-card>
+
+      <product-card>
+        <img
+          slot="image"
+          src="img/koszula.jpg"
+          height="250px",
+          width="270px"
+          alt="Zdjęcie Koszuli"
+        />
+        <h2 slot="name">Koszula</h2>
+        <div slot="price">
+          79.99 PLN <span class="old-price">119.99 PLN</span>
+        </div>
+        <div slot="colors">
+          <span
+            style="
+              background-color: rgb(161, 39, 30);
+              width: 18px;
+              height: 18px;
+              border-radius: 50%;
+              display: inline-block;
+              margin-right: 6px;
+              vertical-align: middle;
+              border: 1px solid rgba(0, 0, 0, 0.12);
+              box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+            "
+            aria-label="Czerwony"
+          ></span>
+        </div>
+        <div slot="sizes">
+          <button>36</button><button>38</button><button>40</button>
+        </div>
+        <span slot="promotion">WYPRZEDAŻ</span>
+      </product-card>
+
+      <product-card>
+        <img
+          slot="image"
+          src="img/kurtka.jpg"
+          height="300px",
+          width="270px"
+          alt="Zdjęcie Kurtki"
+        />
+        <h2 slot="name">Kurtka Zimowa</h2>
+        <div slot="price">499.00 PLN</div>
+        <div slot="colors">
+          <span
+            style="
+              background-color: rgb(0, 0, 0);
+              width: 18px;
+              height: 18px;
+              border-radius: 50%;
+              display: inline-block;
+              margin-right: 6px;
+              vertical-align: middle;
+              border: 1px solid rgba(0, 0, 0, 0.12);
+              box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+            "
+            aria-label="Czarny"
+          ></span>
+        </div>
+        <div slot="sizes"><button>M</button><button>L</button></div>
+      </product-card>
+    </div>
+  </body>
+</html>
